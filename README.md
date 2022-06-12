@@ -17,3 +17,16 @@ The packages included in the `Brewfile` are customised to my workflow. I have an
  - Xcode CLI Tools `xcode-select install`
  - A Bash/Zsh terminal
 
+## Building
+
+If you require Homebrew to be installed, you can run the following from the root of the repo.
+
+```sh
+sh src/install_brew.sh
+```
+
+To install the brew packages, you can run the following from the root of the repo.
+
+```sh
+sh src/setup.sh
+```
